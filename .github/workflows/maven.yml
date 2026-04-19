@@ -36,7 +36,7 @@ jobs:
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: WeatherApp-${{ matrix.os }}
+        name: MiniPass-${{ matrix.os }}
         path: staging/
 
         if-no-files-found: warn
